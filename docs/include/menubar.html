@@ -1,0 +1,47 @@
+<!--メニューバー用CSS読み込み-->
+<link rel="stylesheet" href="/css/paradeiser.css">
+<!--メニューバー-->
+<nav class="paradeiser">
+<!--	<a href="#">
+		<img src="img/icon/icon-key_off.png" alt="Logo" class="paradeiser_logo">
+	</a>-->
+	<a href="/index.html">
+		<div class="paradeiser_icon_canvas">
+			<img src="/img/icon/feather_off.png" alt="Navigate to Home"><!--画像の指定と画像が出なかった時のメッセージ-->
+		</div>
+		<span>Home</span>
+	</a>
+	<a href="/guitar.html">
+		<div class="paradeiser_icon_canvas">
+			<img src="/img/icon/guitar_off.png" alt="Navigate to Guitar contents">
+		</div>
+		<span>Guitar contents</span>
+	</a>
+
+	<!-- paste in as many links as you want -->
+	<a href="#">
+		<div class="paradeiser_icon_canvas">
+			<img src="/img/icon/key2_off.png" alt="Navigate to Homepage">
+		</div>
+		<span>Homepage</span>
+	</a>
+
+	<!-- and include the dropdown aswell -->
+	<span class="paradeiser_dropdown">
+		<a href="#paradeiser-more" id="paradeiser-dropdown">
+			<div class="paradeiser_icon_canvas">
+				<img src="/img/menu_overflow.svg" alt="">
+			</div>
+			<span>More</span>
+		</a>
+		<ul class="paradeiser_children" id="paradeiser-more">
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Links</a></li>
+			<!--<li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
+			<li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
+			<li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>-->
+			<li id="greybox"><a href="#!"></a></li>
+			
+		</ul>
+	</span>
+</nav>
